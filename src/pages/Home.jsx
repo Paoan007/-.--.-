@@ -12,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar />
       <section className="flex min-h-[520px] flex-col items-center justify-center bg-blue-700 px-6 text-center text-white">
-        <p className="mb-4 rounded-full bg-blue-600 px-4 py-2 text-sm">ALUMNI REUNION 2026</p>
+        <p className="mb-4 rounded-full bg-blue-600 px-4 py-2 text-sm">REUNION 2026</p>
         <h1 className="mb-5 text-4xl font-bold md:text-6xl">กลับมาพบกันอีกครั้ง</h1>
         <p className="mb-8 max-w-2xl text-lg text-blue-100">เชื่อมต่อความทรงจำ สร้างมิตรภาพ และร่วมฉลองไปด้วยกัน ในงานเลี้ยงรุ่นศิษย์เก่า 2026</p>
         <div className="flex flex-wrap justify-center gap-3">

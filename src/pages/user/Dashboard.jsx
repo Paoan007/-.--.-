@@ -10,7 +10,7 @@ export default function Dashboard() {
   ]
   return (
     <div>
-      <div className="mb-8"><h1 className="text-2xl font-bold">สวัสดี, {mockUser.name}</h1><p className="mt-2 text-slate-500">ยินดีต้อนรับเข้าสู่ระบบสมาชิก Alumni Party 2026</p></div>
+      <div className="mb-8"><h1 className="text-2xl font-bold">สวัสดี, {mockUser.name}</h1><p className="mt-2 text-slate-500">ยินดีต้อนรับเข้าสู่ระบบสมาชิก</p></div>
       <div className="mb-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
         <StatCard title="Token คงเหลือ" value={mockUser.token} description="Token สำหรับใช้ในระบบ" />
         <StatCard title="คำสั่งซื้อทั้งหมด" value={mockUser.totalOrders} description="รายการคำสั่งซื้อของคุณ" />
